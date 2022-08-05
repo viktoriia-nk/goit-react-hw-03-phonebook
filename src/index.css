@@ -7,9 +7,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  color: #181e30;
+  background-color: #c2ccf0;
+
+  font-family: 'Red Hat Display';
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.div {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid #415078;
+  border-radius: 15px;
+  box-shadow: 10px 15px 15px #2b385e;
+  background-color: #a9befa;
+}
+
+.contactsTitle {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #181e30;
 }

@@ -1,0 +1,17 @@
+.filter {
+    margin-left: 20px;
+    width: 150px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: #c2ccf0;
+    border: 3px solid #6f82c9;
+}
+
+.filter:hover {
+    box-shadow: 10px 5px 5px #8492c6; 
+}
+
+.find {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
